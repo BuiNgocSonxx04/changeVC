@@ -9,16 +9,14 @@ import UIKit
 
 class ViewColorViewController: UIViewController {
 
+    var color: UIColor? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = color
         // Do any additional setup after loading the view.
     }
     
-    func viewColor(color: UIColor) {
-        view.backgroundColor = color
-    }
-
     /*
     // MARK: - Navigation
 

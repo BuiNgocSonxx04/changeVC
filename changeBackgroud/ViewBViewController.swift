@@ -19,9 +19,10 @@ class ViewBViewController: UIViewController {
     @IBAction func viewBlue(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "viewcolor") as! ViewColorViewController
-        vc.viewColor(color: .blue)
+        vc.color = .blue
         navigationController?.pushViewController(vc,animated: true)
     }
+    
     /*
     // MARK: - Navigation
 
