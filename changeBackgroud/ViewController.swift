@@ -26,5 +26,6 @@ class ViewController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "viewb") as! ViewBViewController
         navigationController?.pushViewController(vc,animated: true)
     }
+    
 }
 

@@ -15,6 +15,9 @@ class ViewColorViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func viewColor(color: UIColor) {
+        view.backgroundColor = color
+    }
 
     /*
     // MARK: - Navigation

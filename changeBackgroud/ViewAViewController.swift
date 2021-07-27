@@ -19,7 +19,7 @@ class ViewAViewController: UIViewController {
     @IBAction func viewRed(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "viewcolor") as! ViewColorViewController
-        vc.view.backgroundColor = .red
+        vc.viewColor(color: .red)
         navigationController?.pushViewController(vc,animated: true)
     }
     /*
