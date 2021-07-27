@@ -9,7 +9,7 @@ import UIKit
 
 class ViewColorViewController: UIViewController {
 
-    var color: UIColor? = nil
+    var color = UIColor()
     
     override func viewDidLoad() {
         super.viewDidLoad()
